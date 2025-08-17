@@ -1,0 +1,1369 @@
+Current Node: {
+  "name": "home",
+  "index": 0,
+  "depth": 0
+}Current Node: {
+  "name": "n00dles",
+  "index": 1,
+  "depth": 1,
+  "parent": "home"
+}Current Node: {
+  "name": "max-hardware",
+  "index": 2,
+  "depth": 2,
+  "parent": "n00dles"
+}Current Node: {
+  "name": "omega-net",
+  "index": 3,
+  "depth": 3,
+  "parent": "max-hardware"
+}Current Node: {
+  "name": "the-hub",
+  "index": 4,
+  "depth": 4,
+  "parent": "omega-net"
+}Current Node: {
+  "name": "rothman-uni",
+  "index": 5,
+  "depth": 5,
+  "parent": "the-hub"
+}Current Node: {
+  "name": "alpha-ent",
+  "index": 6,
+  "depth": 6,
+  "parent": "rothman-uni"
+}Current Node: {
+  "name": "global-pharm",
+  "index": 7,
+  "depth": 7,
+  "parent": "alpha-ent"
+}Current Node: {
+  "name": "summit-uni",
+  "index": 8,
+  "depth": 5,
+  "parent": "the-hub"
+}Current Node: {
+  "name": "syscore",
+  "index": 9,
+  "depth": 5,
+  "parent": "the-hub"
+}Current Node: {
+  "name": "johnson-ortho",
+  "index": 10,
+  "depth": 4,
+  "parent": "omega-net"
+}Current Node: {
+  "name": "foodnstuff",
+  "index": 11,
+  "depth": 1,
+  "parent": "home"
+}Current Node: {
+  "name": "sigma-cosmetics",
+  "index": 12,
+  "depth": 1,
+  "parent": "home"
+}Current Node: {
+  "name": "nectar-net",
+  "index": 13,
+  "depth": 2,
+  "parent": "sigma-cosmetics"
+}Current Node: {
+  "name": "neo-net",
+  "index": 14,
+  "depth": 3,
+  "parent": "nectar-net"
+}Current Node: {
+  "name": "joesguns",
+  "index": 15,
+  "depth": 1,
+  "parent": "home"
+}Current Node: {
+  "name": "hong-fang-tea",
+  "index": 16,
+  "depth": 1,
+  "parent": "home"
+}Current Node: {
+  "name": "zer0",
+  "index": 17,
+  "depth": 2,
+  "parent": "hong-fang-tea"
+}Current Node: {
+  "name": "phantasy",
+  "index": 18,
+  "depth": 3,
+  "parent": "zer0"
+}Current Node: {
+  "name": "computek",
+  "index": 19,
+  "depth": 4,
+  "parent": "phantasy"
+}Current Node: {
+  "name": "CSEC",
+  "index": 20,
+  "depth": 2,
+  "parent": "hong-fang-tea"
+}Current Node: {
+  "name": "silver-helix",
+  "index": 21,
+  "depth": 3,
+  "parent": "CSEC"
+}Current Node: {
+  "name": "netlink",
+  "index": 22,
+  "depth": 4,
+  "parent": "silver-helix"
+}Current Node: {
+  "name": "catalyst",
+  "index": 23,
+  "depth": 5,
+  "parent": "netlink"
+}Current Node: {
+  "name": "lexo-corp",
+  "index": 24,
+  "depth": 6,
+  "parent": "catalyst"
+}Current Node: {
+  "name": "crush-fitness",
+  "index": 25,
+  "depth": 4,
+  "parent": "silver-helix"
+}Current Node: {
+  "name": "zb-institute",
+  "index": 26,
+  "depth": 5,
+  "parent": "crush-fitness"
+}Current Node: {
+  "name": "I.I.I.I",
+  "index": 27,
+  "depth": 5,
+  "parent": "crush-fitness"
+}Current Node: {
+  "name": "rho-construction",
+  "index": 28,
+  "depth": 6,
+  "parent": "I.I.I.I"
+}Current Node: {
+  "name": "galactic-cyber",
+  "index": 29,
+  "depth": 7,
+  "parent": "rho-construction"
+}Current Node: {
+  "name": "aevum-police",
+  "index": 30,
+  "depth": 6,
+  "parent": "I.I.I.I"
+}Current Node: {
+  "name": "snap-fitness",
+  "index": 31,
+  "depth": 7,
+  "parent": "aevum-police"
+}Current Node: {
+  "name": "omnia",
+  "index": 32,
+  "depth": 8,
+  "parent": "snap-fitness"
+}Current Node: {
+  "name": "defcomm",
+  "index": 33,
+  "depth": 9,
+  "parent": "omnia"
+}Current Node: {
+  "name": "infocomm",
+  "index": 34,
+  "depth": 10,
+  "parent": "defcomm"
+}Current Node: {
+  "name": "applied-energetics",
+  "index": 35,
+  "depth": 11,
+  "parent": "infocomm"
+}Current Node: {
+  "name": "fulcrumtech",
+  "index": 36,
+  "depth": 12,
+  "parent": "applied-energetics"
+}Current Node: {
+  "name": "4sigma",
+  "index": 37,
+  "depth": 13,
+  "parent": "fulcrumtech"
+}Current Node: {
+  "name": "nwo",
+  "index": 38,
+  "depth": 14,
+  "parent": "4sigma"
+}Current Node: {
+  "name": "ecorp",
+  "index": 39,
+  "depth": 15,
+  "parent": "nwo"
+}Current Node: {
+  "name": "The-Cave",
+  "index": 40,
+  "depth": 15,
+  "parent": "nwo"
+}Current Node: {
+  "name": "helios",
+  "index": 41,
+  "depth": 12,
+  "parent": "applied-energetics"
+}Current Node: {
+  "name": "omnitek",
+  "index": 42,
+  "depth": 13,
+  "parent": "helios"
+}Current Node: {
+  "name": "powerhouse-fitness",
+  "index": 43,
+  "depth": 14,
+  "parent": "omnitek"
+}Current Node: {
+  "name": "zeus-med",
+  "index": 44,
+  "depth": 9,
+  "parent": "omnia"
+}Current Node: {
+  "name": "deltaone",
+  "index": 45,
+  "depth": 8,
+  "parent": "snap-fitness"
+}Current Node: {
+  "name": "icarus",
+  "index": 46,
+  "depth": 9,
+  "parent": "deltaone"
+}Current Node: {
+  "name": "zb-def",
+  "index": 47,
+  "depth": 10,
+  "parent": "icarus"
+}Current Node: {
+  "name": "univ-energy",
+  "index": 48,
+  "depth": 9,
+  "parent": "deltaone"
+}Current Node: {
+  "name": "solaris",
+  "index": 49,
+  "depth": 9,
+  "parent": "deltaone"
+}Current Node: {
+  "name": "taiyang-digital",
+  "index": 50,
+  "depth": 10,
+  "parent": "solaris"
+}Current Node: {
+  "name": "titan-labs",
+  "index": 51,
+  "depth": 11,
+  "parent": "taiyang-digital"
+}Current Node: {
+  "name": "run4theh111z",
+  "index": 52,
+  "depth": 11,
+  "parent": "taiyang-digital"
+}Current Node: {
+  "name": "vitalife",
+  "index": 53,
+  "depth": 12,
+  "parent": "run4theh111z"
+}Current Node: {
+  "name": "kuai-gong",
+  "index": 54,
+  "depth": 13,
+  "parent": "vitalife"
+}Current Node: {
+  "name": "blade",
+  "index": 55,
+  "depth": 14,
+  "parent": "kuai-gong"
+}Current Node: {
+  "name": "megacorp",
+  "index": 56,
+  "depth": 15,
+  "parent": "blade"
+}Current Node: {
+  "name": "fulcrumassets",
+  "index": 57,
+  "depth": 15,
+  "parent": "blade"
+}Current Node: {
+  "name": "clarkinc",
+  "index": 58,
+  "depth": 14,
+  "parent": "kuai-gong"
+}Current Node: {
+  "name": ".",
+  "index": 59,
+  "depth": 13,
+  "parent": "vitalife"
+}Current Node: {
+  "name": "b-and-a",
+  "index": 60,
+  "depth": 14,
+  "parent": "."
+}Current Node: {
+  "name": "nova-med",
+  "index": 61,
+  "depth": 10,
+  "parent": "solaris"
+}Current Node: {
+  "name": "microdyne",
+  "index": 62,
+  "depth": 11,
+  "parent": "nova-med"
+}Current Node: {
+  "name": "stormtech",
+  "index": 63,
+  "depth": 12,
+  "parent": "microdyne"
+}Current Node: {
+  "name": "millenium-fitness",
+  "index": 64,
+  "depth": 6,
+  "parent": "I.I.I.I"
+}Current Node: {
+  "name": "aerocorp",
+  "index": 65,
+  "depth": 7,
+  "parent": "millenium-fitness"
+}Current Node: {
+  "name": "unitalife",
+  "index": 66,
+  "depth": 8,
+  "parent": "aerocorp"
+}Current Node: {
+  "name": "avmnite-02h",
+  "index": 67,
+  "depth": 4,
+  "parent": "silver-helix"
+}Current Node: {
+  "name": "harakiri-sushi",
+  "index": 68,
+  "depth": 1,
+  "parent": "home"
+}Current Node: {
+  "name": "iron-gym",
+  "index": 69,
+  "depth": 1,
+  "parent": "home"
+}Server Map:
+[
+  {
+    "name": "home",
+    "index": 0,
+    "depth": 0,
+    "parentNode": null,
+    "children": [
+      {
+        "name": "n00dles",
+        "index": 1
+      },
+      {
+        "name": "foodnstuff",
+        "index": 11
+      },
+      {
+        "name": "sigma-cosmetics",
+        "index": 12
+      },
+      {
+        "name": "joesguns",
+        "index": 15
+      },
+      {
+        "name": "hong-fang-tea",
+        "index": 16
+      },
+      {
+        "name": "harakiri-sushi",
+        "index": 68
+      },
+      {
+        "name": "iron-gym",
+        "index": 69
+      }
+    ]
+  },
+  {
+    "name": "n00dles",
+    "index": 1,
+    "depth": 1,
+    "parentNode": {
+      "name": "home",
+      "index": 0
+    },
+    "children": [
+      {
+        "name": "max-hardware",
+        "index": 2
+      }
+    ]
+  },
+  {
+    "name": "max-hardware",
+    "index": 2,
+    "depth": 2,
+    "parentNode": {
+      "name": "n00dles",
+      "index": 1
+    },
+    "children": [
+      {
+        "name": "omega-net",
+        "index": 3
+      }
+    ]
+  },
+  {
+    "name": "omega-net",
+    "index": 3,
+    "depth": 3,
+    "parentNode": {
+      "name": "max-hardware",
+      "index": 2
+    },
+    "children": [
+      {
+        "name": "the-hub",
+        "index": 4
+      },
+      {
+        "name": "johnson-ortho",
+        "index": 10
+      }
+    ]
+  },
+  {
+    "name": "the-hub",
+    "index": 4,
+    "depth": 4,
+    "parentNode": {
+      "name": "omega-net",
+      "index": 3
+    },
+    "children": [
+      {
+        "name": "rothman-uni",
+        "index": 5
+      },
+      {
+        "name": "summit-uni",
+        "index": 8
+      },
+      {
+        "name": "syscore",
+        "index": 9
+      }
+    ]
+  },
+  {
+    "name": "rothman-uni",
+    "index": 5,
+    "depth": 5,
+    "parentNode": {
+      "name": "the-hub",
+      "index": 4
+    },
+    "children": [
+      {
+        "name": "alpha-ent",
+        "index": 6
+      }
+    ]
+  },
+  {
+    "name": "alpha-ent",
+    "index": 6,
+    "depth": 6,
+    "parentNode": {
+      "name": "rothman-uni",
+      "index": 5
+    },
+    "children": [
+      {
+        "name": "global-pharm",
+        "index": 7
+      }
+    ]
+  },
+  {
+    "name": "global-pharm",
+    "index": 7,
+    "depth": 7,
+    "parentNode": {
+      "name": "alpha-ent",
+      "index": 6
+    },
+    "children": []
+  },
+  {
+    "name": "summit-uni",
+    "index": 8,
+    "depth": 5,
+    "parentNode": {
+      "name": "the-hub",
+      "index": 4
+    },
+    "children": []
+  },
+  {
+    "name": "syscore",
+    "index": 9,
+    "depth": 5,
+    "parentNode": {
+      "name": "the-hub",
+      "index": 4
+    },
+    "children": []
+  },
+  {
+    "name": "johnson-ortho",
+    "index": 10,
+    "depth": 4,
+    "parentNode": {
+      "name": "omega-net",
+      "index": 3
+    },
+    "children": []
+  },
+  {
+    "name": "foodnstuff",
+    "index": 11,
+    "depth": 1,
+    "parentNode": {
+      "name": "home",
+      "index": 0
+    },
+    "children": []
+  },
+  {
+    "name": "sigma-cosmetics",
+    "index": 12,
+    "depth": 1,
+    "parentNode": {
+      "name": "home",
+      "index": 0
+    },
+    "children": [
+      {
+        "name": "nectar-net",
+        "index": 13
+      }
+    ]
+  },
+  {
+    "name": "nectar-net",
+    "index": 13,
+    "depth": 2,
+    "parentNode": {
+      "name": "sigma-cosmetics",
+      "index": 12
+    },
+    "children": [
+      {
+        "name": "neo-net",
+        "index": 14
+      }
+    ]
+  },
+  {
+    "name": "neo-net",
+    "index": 14,
+    "depth": 3,
+    "parentNode": {
+      "name": "nectar-net",
+      "index": 13
+    },
+    "children": []
+  },
+  {
+    "name": "joesguns",
+    "index": 15,
+    "depth": 1,
+    "parentNode": {
+      "name": "home",
+      "index": 0
+    },
+    "children": []
+  },
+  {
+    "name": "hong-fang-tea",
+    "index": 16,
+    "depth": 1,
+    "parentNode": {
+      "name": "home",
+      "index": 0
+    },
+    "children": [
+      {
+        "name": "zer0",
+        "index": 17
+      },
+      {
+        "name": "CSEC",
+        "index": 20
+      }
+    ]
+  },
+  {
+    "name": "zer0",
+    "index": 17,
+    "depth": 2,
+    "parentNode": {
+      "name": "hong-fang-tea",
+      "index": 16
+    },
+    "children": [
+      {
+        "name": "phantasy",
+        "index": 18
+      }
+    ]
+  },
+  {
+    "name": "phantasy",
+    "index": 18,
+    "depth": 3,
+    "parentNode": {
+      "name": "zer0",
+      "index": 17
+    },
+    "children": [
+      {
+        "name": "computek",
+        "index": 19
+      }
+    ]
+  },
+  {
+    "name": "computek",
+    "index": 19,
+    "depth": 4,
+    "parentNode": {
+      "name": "phantasy",
+      "index": 18
+    },
+    "children": []
+  },
+  {
+    "name": "CSEC",
+    "index": 20,
+    "depth": 2,
+    "parentNode": {
+      "name": "hong-fang-tea",
+      "index": 16
+    },
+    "children": [
+      {
+        "name": "silver-helix",
+        "index": 21
+      }
+    ]
+  },
+  {
+    "name": "silver-helix",
+    "index": 21,
+    "depth": 3,
+    "parentNode": {
+      "name": "CSEC",
+      "index": 20
+    },
+    "children": [
+      {
+        "name": "netlink",
+        "index": 22
+      },
+      {
+        "name": "crush-fitness",
+        "index": 25
+      },
+      {
+        "name": "avmnite-02h",
+        "index": 67
+      }
+    ]
+  },
+  {
+    "name": "netlink",
+    "index": 22,
+    "depth": 4,
+    "parentNode": {
+      "name": "silver-helix",
+      "index": 21
+    },
+    "children": [
+      {
+        "name": "catalyst",
+        "index": 23
+      }
+    ]
+  },
+  {
+    "name": "catalyst",
+    "index": 23,
+    "depth": 5,
+    "parentNode": {
+      "name": "netlink",
+      "index": 22
+    },
+    "children": [
+      {
+        "name": "lexo-corp",
+        "index": 24
+      }
+    ]
+  },
+  {
+    "name": "lexo-corp",
+    "index": 24,
+    "depth": 6,
+    "parentNode": {
+      "name": "catalyst",
+      "index": 23
+    },
+    "children": []
+  },
+  {
+    "name": "crush-fitness",
+    "index": 25,
+    "depth": 4,
+    "parentNode": {
+      "name": "silver-helix",
+      "index": 21
+    },
+    "children": [
+      {
+        "name": "zb-institute",
+        "index": 26
+      },
+      {
+        "name": "I.I.I.I",
+        "index": 27
+      }
+    ]
+  },
+  {
+    "name": "zb-institute",
+    "index": 26,
+    "depth": 5,
+    "parentNode": {
+      "name": "crush-fitness",
+      "index": 25
+    },
+    "children": []
+  },
+  {
+    "name": "I.I.I.I",
+    "index": 27,
+    "depth": 5,
+    "parentNode": {
+      "name": "crush-fitness",
+      "index": 25
+    },
+    "children": [
+      {
+        "name": "rho-construction",
+        "index": 28
+      },
+      {
+        "name": "aevum-police",
+        "index": 30
+      },
+      {
+        "name": "millenium-fitness",
+        "index": 64
+      }
+    ]
+  },
+  {
+    "name": "rho-construction",
+    "index": 28,
+    "depth": 6,
+    "parentNode": {
+      "name": "I.I.I.I",
+      "index": 27
+    },
+    "children": [
+      {
+        "name": "galactic-cyber",
+        "index": 29
+      }
+    ]
+  },
+  {
+    "name": "galactic-cyber",
+    "index": 29,
+    "depth": 7,
+    "parentNode": {
+      "name": "rho-construction",
+      "index": 28
+    },
+    "children": []
+  },
+  {
+    "name": "aevum-police",
+    "index": 30,
+    "depth": 6,
+    "parentNode": {
+      "name": "I.I.I.I",
+      "index": 27
+    },
+    "children": [
+      {
+        "name": "snap-fitness",
+        "index": 31
+      }
+    ]
+  },
+  {
+    "name": "snap-fitness",
+    "index": 31,
+    "depth": 7,
+    "parentNode": {
+      "name": "aevum-police",
+      "index": 30
+    },
+    "children": [
+      {
+        "name": "omnia",
+        "index": 32
+      },
+      {
+        "name": "deltaone",
+        "index": 45
+      }
+    ]
+  },
+  {
+    "name": "omnia",
+    "index": 32,
+    "depth": 8,
+    "parentNode": {
+      "name": "snap-fitness",
+      "index": 31
+    },
+    "children": [
+      {
+        "name": "defcomm",
+        "index": 33
+      },
+      {
+        "name": "zeus-med",
+        "index": 44
+      }
+    ]
+  },
+  {
+    "name": "defcomm",
+    "index": 33,
+    "depth": 9,
+    "parentNode": {
+      "name": "omnia",
+      "index": 32
+    },
+    "children": [
+      {
+        "name": "infocomm",
+        "index": 34
+      }
+    ]
+  },
+  {
+    "name": "infocomm",
+    "index": 34,
+    "depth": 10,
+    "parentNode": {
+      "name": "defcomm",
+      "index": 33
+    },
+    "children": [
+      {
+        "name": "applied-energetics",
+        "index": 35
+      }
+    ]
+  },
+  {
+    "name": "applied-energetics",
+    "index": 35,
+    "depth": 11,
+    "parentNode": {
+      "name": "infocomm",
+      "index": 34
+    },
+    "children": [
+      {
+        "name": "fulcrumtech",
+        "index": 36
+      },
+      {
+        "name": "helios",
+        "index": 41
+      }
+    ]
+  },
+  {
+    "name": "fulcrumtech",
+    "index": 36,
+    "depth": 12,
+    "parentNode": {
+      "name": "applied-energetics",
+      "index": 35
+    },
+    "children": [
+      {
+        "name": "4sigma",
+        "index": 37
+      }
+    ]
+  },
+  {
+    "name": "4sigma",
+    "index": 37,
+    "depth": 13,
+    "parentNode": {
+      "name": "fulcrumtech",
+      "index": 36
+    },
+    "children": [
+      {
+        "name": "nwo",
+        "index": 38
+      }
+    ]
+  },
+  {
+    "name": "nwo",
+    "index": 38,
+    "depth": 14,
+    "parentNode": {
+      "name": "4sigma",
+      "index": 37
+    },
+    "children": [
+      {
+        "name": "ecorp",
+        "index": 39
+      },
+      {
+        "name": "The-Cave",
+        "index": 40
+      }
+    ]
+  },
+  {
+    "name": "ecorp",
+    "index": 39,
+    "depth": 15,
+    "parentNode": {
+      "name": "nwo",
+      "index": 38
+    },
+    "children": []
+  },
+  {
+    "name": "The-Cave",
+    "index": 40,
+    "depth": 15,
+    "parentNode": {
+      "name": "nwo",
+      "index": 38
+    },
+    "children": []
+  },
+  {
+    "name": "helios",
+    "index": 41,
+    "depth": 12,
+    "parentNode": {
+      "name": "applied-energetics",
+      "index": 35
+    },
+    "children": [
+      {
+        "name": "omnitek",
+        "index": 42
+      }
+    ]
+  },
+  {
+    "name": "omnitek",
+    "index": 42,
+    "depth": 13,
+    "parentNode": {
+      "name": "helios",
+      "index": 41
+    },
+    "children": [
+      {
+        "name": "powerhouse-fitness",
+        "index": 43
+      }
+    ]
+  },
+  {
+    "name": "powerhouse-fitness",
+    "index": 43,
+    "depth": 14,
+    "parentNode": {
+      "name": "omnitek",
+      "index": 42
+    },
+    "children": []
+  },
+  {
+    "name": "zeus-med",
+    "index": 44,
+    "depth": 9,
+    "parentNode": {
+      "name": "omnia",
+      "index": 32
+    },
+    "children": []
+  },
+  {
+    "name": "deltaone",
+    "index": 45,
+    "depth": 8,
+    "parentNode": {
+      "name": "snap-fitness",
+      "index": 31
+    },
+    "children": [
+      {
+        "name": "icarus",
+        "index": 46
+      },
+      {
+        "name": "univ-energy",
+        "index": 48
+      },
+      {
+        "name": "solaris",
+        "index": 49
+      }
+    ]
+  },
+  {
+    "name": "icarus",
+    "index": 46,
+    "depth": 9,
+    "parentNode": {
+      "name": "deltaone",
+      "index": 45
+    },
+    "children": [
+      {
+        "name": "zb-def",
+        "index": 47
+      }
+    ]
+  },
+  {
+    "name": "zb-def",
+    "index": 47,
+    "depth": 10,
+    "parentNode": {
+      "name": "icarus",
+      "index": 46
+    },
+    "children": []
+  },
+  {
+    "name": "univ-energy",
+    "index": 48,
+    "depth": 9,
+    "parentNode": {
+      "name": "deltaone",
+      "index": 45
+    },
+    "children": []
+  },
+  {
+    "name": "solaris",
+    "index": 49,
+    "depth": 9,
+    "parentNode": {
+      "name": "deltaone",
+      "index": 45
+    },
+    "children": [
+      {
+        "name": "taiyang-digital",
+        "index": 50
+      },
+      {
+        "name": "nova-med",
+        "index": 61
+      }
+    ]
+  },
+  {
+    "name": "taiyang-digital",
+    "index": 50,
+    "depth": 10,
+    "parentNode": {
+      "name": "solaris",
+      "index": 49
+    },
+    "children": [
+      {
+        "name": "titan-labs",
+        "index": 51
+      },
+      {
+        "name": "run4theh111z",
+        "index": 52
+      }
+    ]
+  },
+  {
+    "name": "titan-labs",
+    "index": 51,
+    "depth": 11,
+    "parentNode": {
+      "name": "taiyang-digital",
+      "index": 50
+    },
+    "children": []
+  },
+  {
+    "name": "run4theh111z",
+    "index": 52,
+    "depth": 11,
+    "parentNode": {
+      "name": "taiyang-digital",
+      "index": 50
+    },
+    "children": [
+      {
+        "name": "vitalife",
+        "index": 53
+      }
+    ]
+  },
+  {
+    "name": "vitalife",
+    "index": 53,
+    "depth": 12,
+    "parentNode": {
+      "name": "run4theh111z",
+      "index": 52
+    },
+    "children": [
+      {
+        "name": "kuai-gong",
+        "index": 54
+      },
+      {
+        "name": ".",
+        "index": 59
+      }
+    ]
+  },
+  {
+    "name": "kuai-gong",
+    "index": 54,
+    "depth": 13,
+    "parentNode": {
+      "name": "vitalife",
+      "index": 53
+    },
+    "children": [
+      {
+        "name": "blade",
+        "index": 55
+      },
+      {
+        "name": "clarkinc",
+        "index": 58
+      }
+    ]
+  },
+  {
+    "name": "blade",
+    "index": 55,
+    "depth": 14,
+    "parentNode": {
+      "name": "kuai-gong",
+      "index": 54
+    },
+    "children": [
+      {
+        "name": "megacorp",
+        "index": 56
+      },
+      {
+        "name": "fulcrumassets",
+        "index": 57
+      }
+    ]
+  },
+  {
+    "name": "megacorp",
+    "index": 56,
+    "depth": 15,
+    "parentNode": {
+      "name": "blade",
+      "index": 55
+    },
+    "children": []
+  },
+  {
+    "name": "fulcrumassets",
+    "index": 57,
+    "depth": 15,
+    "parentNode": {
+      "name": "blade",
+      "index": 55
+    },
+    "children": []
+  },
+  {
+    "name": "clarkinc",
+    "index": 58,
+    "depth": 14,
+    "parentNode": {
+      "name": "kuai-gong",
+      "index": 54
+    },
+    "children": []
+  },
+  {
+    "name": ".",
+    "index": 59,
+    "depth": 13,
+    "parentNode": {
+      "name": "vitalife",
+      "index": 53
+    },
+    "children": [
+      {
+        "name": "b-and-a",
+        "index": 60
+      }
+    ]
+  },
+  {
+    "name": "b-and-a",
+    "index": 60,
+    "depth": 14,
+    "parentNode": {
+      "name": ".",
+      "index": 59
+    },
+    "children": []
+  },
+  {
+    "name": "nova-med",
+    "index": 61,
+    "depth": 10,
+    "parentNode": {
+      "name": "solaris",
+      "index": 49
+    },
+    "children": [
+      {
+        "name": "microdyne",
+        "index": 62
+      }
+    ]
+  },
+  {
+    "name": "microdyne",
+    "index": 62,
+    "depth": 11,
+    "parentNode": {
+      "name": "nova-med",
+      "index": 61
+    },
+    "children": [
+      {
+        "name": "stormtech",
+        "index": 63
+      }
+    ]
+  },
+  {
+    "name": "stormtech",
+    "index": 63,
+    "depth": 12,
+    "parentNode": {
+      "name": "microdyne",
+      "index": 62
+    },
+    "children": []
+  },
+  {
+    "name": "millenium-fitness",
+    "index": 64,
+    "depth": 6,
+    "parentNode": {
+      "name": "I.I.I.I",
+      "index": 27
+    },
+    "children": [
+      {
+        "name": "aerocorp",
+        "index": 65
+      }
+    ]
+  },
+  {
+    "name": "aerocorp",
+    "index": 65,
+    "depth": 7,
+    "parentNode": {
+      "name": "millenium-fitness",
+      "index": 64
+    },
+    "children": [
+      {
+        "name": "unitalife",
+        "index": 66
+      }
+    ]
+  },
+  {
+    "name": "unitalife",
+    "index": 66,
+    "depth": 8,
+    "parentNode": {
+      "name": "aerocorp",
+      "index": 65
+    },
+    "children": []
+  },
+  {
+    "name": "avmnite-02h",
+    "index": 67,
+    "depth": 4,
+    "parentNode": {
+      "name": "silver-helix",
+      "index": 21
+    },
+    "children": []
+  },
+  {
+    "name": "harakiri-sushi",
+    "index": 68,
+    "depth": 1,
+    "parentNode": {
+      "name": "home",
+      "index": 0
+    },
+    "children": []
+  },
+  {
+    "name": "iron-gym",
+    "index": 69,
+    "depth": 1,
+    "parentNode": {
+      "name": "home",
+      "index": 0
+    },
+    "children": []
+  }
+]
+Finished mapping at 7:02:37 PM

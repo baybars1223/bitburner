@@ -1,0 +1,350 @@
+{
+  "name": "home",
+  "index": 0,
+  "depth": 0
+}{
+  "name": "n00dles",
+  "index": 1,
+  "depth": 1,
+  "parent": "home"
+}{
+  "name": "max-hardware",
+  "index": 2,
+  "depth": 2,
+  "parent": "n00dles"
+}{
+  "name": "omega-net",
+  "index": 3,
+  "depth": 3,
+  "parent": "max-hardware"
+}{
+  "name": "the-hub",
+  "index": 4,
+  "depth": 4,
+  "parent": "omega-net"
+}{
+  "name": "rothman-uni",
+  "index": 5,
+  "depth": 5,
+  "parent": "the-hub"
+}{
+  "name": "alpha-ent",
+  "index": 6,
+  "depth": 6,
+  "parent": "rothman-uni"
+}{
+  "name": "global-pharm",
+  "index": 7,
+  "depth": 7,
+  "parent": "alpha-ent"
+}{
+  "name": "summit-uni",
+  "index": 8,
+  "depth": 5,
+  "parent": "the-hub"
+}{
+  "name": "syscore",
+  "index": 9,
+  "depth": 5,
+  "parent": "the-hub"
+}{
+  "name": "johnson-ortho",
+  "index": 10,
+  "depth": 4,
+  "parent": "omega-net"
+}{
+  "name": "foodnstuff",
+  "index": 11,
+  "depth": 1,
+  "parent": "home"
+}{
+  "name": "sigma-cosmetics",
+  "index": 12,
+  "depth": 1,
+  "parent": "home"
+}{
+  "name": "nectar-net",
+  "index": 13,
+  "depth": 2,
+  "parent": "sigma-cosmetics"
+}{
+  "name": "neo-net",
+  "index": 14,
+  "depth": 3,
+  "parent": "nectar-net"
+}{
+  "name": "joesguns",
+  "index": 15,
+  "depth": 1,
+  "parent": "home"
+}{
+  "name": "hong-fang-tea",
+  "index": 16,
+  "depth": 1,
+  "parent": "home"
+}{
+  "name": "zer0",
+  "index": 17,
+  "depth": 2,
+  "parent": "hong-fang-tea"
+}{
+  "name": "phantasy",
+  "index": 18,
+  "depth": 3,
+  "parent": "zer0"
+}{
+  "name": "computek",
+  "index": 19,
+  "depth": 4,
+  "parent": "phantasy"
+}{
+  "name": "CSEC",
+  "index": 20,
+  "depth": 2,
+  "parent": "hong-fang-tea"
+}{
+  "name": "silver-helix",
+  "index": 21,
+  "depth": 3,
+  "parent": "CSEC"
+}{
+  "name": "netlink",
+  "index": 22,
+  "depth": 4,
+  "parent": "silver-helix"
+}{
+  "name": "catalyst",
+  "index": 23,
+  "depth": 5,
+  "parent": "netlink"
+}{
+  "name": "lexo-corp",
+  "index": 24,
+  "depth": 6,
+  "parent": "catalyst"
+}{
+  "name": "crush-fitness",
+  "index": 25,
+  "depth": 4,
+  "parent": "silver-helix"
+}{
+  "name": "zb-institute",
+  "index": 26,
+  "depth": 5,
+  "parent": "crush-fitness"
+}{
+  "name": "I.I.I.I",
+  "index": 27,
+  "depth": 5,
+  "parent": "crush-fitness"
+}{
+  "name": "rho-construction",
+  "index": 28,
+  "depth": 6,
+  "parent": "I.I.I.I"
+}{
+  "name": "galactic-cyber",
+  "index": 29,
+  "depth": 7,
+  "parent": "rho-construction"
+}{
+  "name": "aevum-police",
+  "index": 30,
+  "depth": 6,
+  "parent": "I.I.I.I"
+}{
+  "name": "snap-fitness",
+  "index": 31,
+  "depth": 7,
+  "parent": "aevum-police"
+}{
+  "name": "omnia",
+  "index": 32,
+  "depth": 8,
+  "parent": "snap-fitness"
+}{
+  "name": "defcomm",
+  "index": 33,
+  "depth": 9,
+  "parent": "omnia"
+}{
+  "name": "infocomm",
+  "index": 34,
+  "depth": 10,
+  "parent": "defcomm"
+}{
+  "name": "applied-energetics",
+  "index": 35,
+  "depth": 11,
+  "parent": "infocomm"
+}{
+  "name": "fulcrumtech",
+  "index": 36,
+  "depth": 12,
+  "parent": "applied-energetics"
+}{
+  "name": "4sigma",
+  "index": 37,
+  "depth": 13,
+  "parent": "fulcrumtech"
+}{
+  "name": "nwo",
+  "index": 38,
+  "depth": 14,
+  "parent": "4sigma"
+}{
+  "name": "ecorp",
+  "index": 39,
+  "depth": 15,
+  "parent": "nwo"
+}{
+  "name": "The-Cave",
+  "index": 40,
+  "depth": 15,
+  "parent": "nwo"
+}{
+  "name": "helios",
+  "index": 41,
+  "depth": 12,
+  "parent": "applied-energetics"
+}{
+  "name": "omnitek",
+  "index": 42,
+  "depth": 13,
+  "parent": "helios"
+}{
+  "name": "powerhouse-fitness",
+  "index": 43,
+  "depth": 14,
+  "parent": "omnitek"
+}{
+  "name": "zeus-med",
+  "index": 44,
+  "depth": 9,
+  "parent": "omnia"
+}{
+  "name": "deltaone",
+  "index": 45,
+  "depth": 8,
+  "parent": "snap-fitness"
+}{
+  "name": "icarus",
+  "index": 46,
+  "depth": 9,
+  "parent": "deltaone"
+}{
+  "name": "zb-def",
+  "index": 47,
+  "depth": 10,
+  "parent": "icarus"
+}{
+  "name": "univ-energy",
+  "index": 48,
+  "depth": 9,
+  "parent": "deltaone"
+}{
+  "name": "solaris",
+  "index": 49,
+  "depth": 9,
+  "parent": "deltaone"
+}{
+  "name": "taiyang-digital",
+  "index": 50,
+  "depth": 10,
+  "parent": "solaris"
+}{
+  "name": "titan-labs",
+  "index": 51,
+  "depth": 11,
+  "parent": "taiyang-digital"
+}{
+  "name": "run4theh111z",
+  "index": 52,
+  "depth": 11,
+  "parent": "taiyang-digital"
+}{
+  "name": "vitalife",
+  "index": 53,
+  "depth": 12,
+  "parent": "run4theh111z"
+}{
+  "name": "kuai-gong",
+  "index": 54,
+  "depth": 13,
+  "parent": "vitalife"
+}{
+  "name": "blade",
+  "index": 55,
+  "depth": 14,
+  "parent": "kuai-gong"
+}{
+  "name": "megacorp",
+  "index": 56,
+  "depth": 15,
+  "parent": "blade"
+}{
+  "name": "fulcrumassets",
+  "index": 57,
+  "depth": 15,
+  "parent": "blade"
+}{
+  "name": "clarkinc",
+  "index": 58,
+  "depth": 14,
+  "parent": "kuai-gong"
+}{
+  "name": ".",
+  "index": 59,
+  "depth": 13,
+  "parent": "vitalife"
+}{
+  "name": "b-and-a",
+  "index": 60,
+  "depth": 14,
+  "parent": "."
+}{
+  "name": "nova-med",
+  "index": 61,
+  "depth": 10,
+  "parent": "solaris"
+}{
+  "name": "microdyne",
+  "index": 62,
+  "depth": 11,
+  "parent": "nova-med"
+}{
+  "name": "stormtech",
+  "index": 63,
+  "depth": 12,
+  "parent": "microdyne"
+}{
+  "name": "millenium-fitness",
+  "index": 64,
+  "depth": 6,
+  "parent": "I.I.I.I"
+}{
+  "name": "aerocorp",
+  "index": 65,
+  "depth": 7,
+  "parent": "millenium-fitness"
+}{
+  "name": "unitalife",
+  "index": 66,
+  "depth": 8,
+  "parent": "aerocorp"
+}{
+  "name": "avmnite-02h",
+  "index": 67,
+  "depth": 4,
+  "parent": "silver-helix"
+}{
+  "name": "harakiri-sushi",
+  "index": 68,
+  "depth": 1,
+  "parent": "home"
+}{
+  "name": "iron-gym",
+  "index": 69,
+  "depth": 1,
+  "parent": "home"
+}

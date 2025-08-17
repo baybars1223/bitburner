@@ -1,0 +1,140 @@
+This file contains the list of potential API break. A pattern was used to look through all your files and note the spots where you might have a problem. Not everything here is broken./ns\.getScriptExpGain/g
+getScriptExpGain with 0 argument no longer returns the sum of all scripts. Use getTotalScriptExpGain
+
+	interface/custom-stats.ns.js
+		Line 15 values.push(ns.getScriptExpGain().toPrecision(5) + '/sec');
+
+
+/ns\.getScriptExpGain/g
+getScriptIncome with 0 argument no longer returns the sum of all scripts. Use getTotalScriptIncome
+
+	interface/custom-stats.ns.js
+		Line 15 values.push(ns.getScriptExpGain().toPrecision(5) + '/sec');
+
+
+/ns\.scp/g
+scp arguments were switch, it is now scp(files, destination, optionally_source). If you were using 2 argument (not 3) this doesn't affect you.
+
+	util/moveDir.ns.js
+		Line 8 ns.scp(files, srcHost, targetHost)
+	util/server.ns.js
+		Line 49 return this.ns.scp([SCRIPT_PATH, DESCRIPTION_PATH], 'home', host || this.Server)
+	util/buyServer.ns.js
+		Line 21 await ns.scp(files, 'home', host)
+
+
+/ns.commitCrime/g
+ns.commitCrime was moved to ns.singularity.commitCrime
+
+	prime.js
+		Line 6 ns.commitCrime('Homicide')
+
+
+/ns.connect/g
+ns.connect was moved to ns.singularity.connect
+
+	crawl.js
+		Line 45 ns.connect(host)
+		Line 139 ns.connect('home')
+
+
+/ns.installBackdoor/g
+ns.installBackdoor was moved to ns.singularity.installBackdoor
+
+	crawl.js
+		Line 49 const op = ns.installBackdoor()
+
+
+/ns.isBusy/g
+ns.isBusy was moved to ns.singularity.isBusy
+
+	prime.js
+		Line 5 if(!ns.isBusy()) {
+
+
+/ns.purchaseProgram/g
+ns.purchaseProgram was moved to ns.singularity.purchaseProgram
+
+	reset.js
+		Line 39 ns.purchaseProgram(program.name)
+
+
+/ns.purchaseTor/g
+ns.purchaseTor was moved to ns.singularity.purchaseTor
+
+	reset.js
+		Line 36 ns.purchaseTor()
+
+
+/hacking/g
+The work system is completely reworked and ns.getPlayer().hacking no longer exists. This data is likely available inside ns.getPlayer().currentWork, skills, exp, or hp
+
+	gang.js
+		Line 106 * @param {"combat"|"hacking"|"all"} cat
+		Line 110 cat === 'hacking' ? HACKING_AUGMENTS :
+	crawl.js
+		Line 48 if(server.hasAdminRights && player.hacking >= server.requiredHackingSkill && !compromised.includes(host)) {
+	vGang.js
+		Line 10 const HACK = 'hacking'
+	util/hackBot.js
+		Line 105 ns.print(`It appears that we're already hacking '${target.hostname}'`)
+
+
+/strength/g
+The work system is completely reworked and ns.getPlayer().strength no longer exists. This data is likely available inside ns.getPlayer().currentWork, skills, exp, or hp
+
+	sleeve.js
+		Line 8 'strength',
+	sleeves.js
+		Line 8 'strength',
+	vGang.js
+		Line 5 const STR = 'strength'
+
+
+/defense/g
+The work system is completely reworked and ns.getPlayer().defense no longer exists. This data is likely available inside ns.getPlayer().currentWork, skills, exp, or hp
+
+	sleeve.js
+		Line 9 'defense',
+	sleeves.js
+		Line 9 'defense',
+	vGang.js
+		Line 6 const DEF = 'defense'
+
+
+/dexterity/g
+The work system is completely reworked and ns.getPlayer().dexterity no longer exists. This data is likely available inside ns.getPlayer().currentWork, skills, exp, or hp
+
+	sleeve.js
+		Line 10 'dexterity',
+	sleeves.js
+		Line 10 'dexterity',
+	vGang.js
+		Line 7 const DEX = 'dexterity'
+
+
+/agility/g
+The work system is completely reworked and ns.getPlayer().agility no longer exists. This data is likely available inside ns.getPlayer().currentWork, skills, exp, or hp
+
+	sleeve.js
+		Line 11 'agility'
+	sleeves.js
+		Line 11 'agility'
+	vGang.js
+		Line 8 const AGI = 'agility'
+
+
+/charisma/g
+The work system is completely reworked and ns.getPlayer().charisma no longer exists. This data is likely available inside ns.getPlayer().currentWork, skills, exp, or hp
+
+	vGang.js
+		Line 9 const CHA = 'charisma'
+
+
+/hp/g
+The work system is completely reworked and ns.getPlayer().hp no longer exists. This data is likely available inside ns.getPlayer().currentWork, skills, exp, or hp
+
+	gang.js
+		Line 269 const [_completionTask = '', _stats = 'chp', flatGoal = 0.5, multGoal = 1.1] = args
+
+

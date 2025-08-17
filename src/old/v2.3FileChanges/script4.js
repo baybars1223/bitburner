@@ -1,0 +1,2 @@
+// Original path: /util/servers.txt. Path was no longer valid
+["n00dles","foodnstuff","sigma-cosmetics","joesguns","hong-fang-tea","harakiri-sushi","nectar-net","max-hardware","CSEC","zer0","phantasy","silver-helix","omega-net","neo-net","the-hub","johnson-ortho","crush-fitness","avmnite-02h"]
