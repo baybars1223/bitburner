@@ -1,13 +1,13 @@
-import {describeHost} from '/util/server.ns'
+import {describeHost} from '/old/util/server.ns'
 
-const SERVERS_PATH = '/util/servers.txt'
-const WORKER_LIST_PATH = '/lists/weaken-workerList.txt'
-const SERIALIZED_WORKERS_PATH = '/lists/weaken-workers.txt'
+const SERVERS_PATH = '/old/util/servers.txt'
+const WORKER_LIST_PATH = '/old/lists/weaken-workerList.txt'
+const SERIALIZED_WORKERS_PATH = '/old/lists/weaken-workers.txt'
 
-const LOG_FILE = '/logs/weakener.txt'
-const ERROR_FILE = '/errors/weakener.txt'
+const LOG_FILE = '/old/logs/weakener.txt'
+const ERROR_FILE = '/old/errors/weakener.txt'
 
-const WEAKEN_PATH = '/util/weak.ns'
+const WEAKEN_PATH = '/old/util/weak.ns'
 const WEAKEN_COST = 1.75
 
 function replaceWorkerEntry(ns, workers, entry) {

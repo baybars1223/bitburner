@@ -1,4 +1,4 @@
-const SERVERS_PATH = '/util/servers.txt'
+const SERVERS_PATH = '/old/util/servers.txt'
 
 /** @param {NS} ns **/
 export async function main(ns) {

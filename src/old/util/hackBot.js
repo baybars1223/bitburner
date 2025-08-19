@@ -1,12 +1,12 @@
 /** @type import("..").NS */
 let ns = null
 
-const TARGETS_PATH = '/lists/spread-targets.txt'
+const TARGETS_PATH = '/old/lists/spread-targets.txt'
 
-const LOG_FILE = '/logs/hackBot.txt'
-const ERROR_FILE = '/errors/hackBot.txt'
+const LOG_FILE = '/old/logs/hackBot.txt'
+const ERROR_FILE = '/old/errors/hackBot.txt'
 
-const HACK_PATH = '/util/minihack.js'
+const HACK_PATH = '/old/util/minihack.js'
 const HACK_COST = 1.75
 
 /** @param {NS} _ns **/

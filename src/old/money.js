@@ -1,7 +1,7 @@
-import { generateLineData } from '/util/summarize.js'
-import { pErrorGenerator } from '/util/error.js'
+import { generateLineData } from '/old/util/summarize.js'
+import { pErrorGenerator } from '/old/util/error.js'
 let pError = null
-const SERVER_LIST = '/lists/servers.txt'
+const SERVER_LIST = '/old/lists/servers.txt'
 
 /** @param {NS} ns **/
 export async function main(ns) {

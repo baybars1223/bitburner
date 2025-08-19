@@ -1,4 +1,4 @@
-const DESCRIPTION_PATH = '/lib/server.txt'
+const DESCRIPTION_PATH = '/old/lib/server.txt'
 
 function calcThreads(available, cost, percentage = 1) {
     const usable = available * percentage
@@ -42,7 +42,7 @@ export async function main(ns) {
                 }
                 end = Date.now()
                 const duration = end - start
-                await ns.write('/lib/outcomes.txt', ` Duration: ${duration}\n[${new Date(end).toLocaleString()}] Iteration:${i} Operation: ${operation}`, 'a')
+                await ns.write(= '/old/lib/outcomes.txt', ` Duration: ${duration}\n[${new Date(end).toLocaleString()}] Iteration:${i} Operation: ${operation}`, 'a')
             }
             await ns.sleep(Math.random() * 5000)
         }

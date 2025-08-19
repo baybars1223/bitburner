@@ -1,5 +1,5 @@
 /** @param {NS} ns **/
-import { describeHost } from '/util/server.ns'
+import { describeHost } from '/old/util/server.ns'
 
 export async function main(ns) {
     const hostname = ns.args[0]

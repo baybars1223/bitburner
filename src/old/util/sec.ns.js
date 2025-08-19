@@ -1,5 +1,5 @@
-import { describeHost } from '/util/server.ns'
-const SERVERS_PATH = '/lists/servers.txt'
+import { describeHost } from '/old/util/server.ns'
+const SERVERS_PATH = '/old/lists/servers.txt'
 
 function formatNumber(num) {
     const endings = ['K', 'M', 'B', 'T']

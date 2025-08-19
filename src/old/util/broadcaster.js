@@ -1,4 +1,4 @@
-const SERVERS_PATH = '/lists/serverDescriptions.txt'
+const SERVERS_PATH = '/old/lists/serverDescriptions.txt'
 
 class PortMessage {
 	/** 
@@ -69,7 +69,7 @@ const testBroadcasterCallback = (ns, servers, target, attributes) => {
 		}, {server: target})
 		ns.tprint(`data:`)
 		ns.tprint(data)
-		return [true, data, { host: 'home', script: '/util/broadcaster.js'}]
+		return [true, data, { host: 'home', script: = '/old/util/broadcaster.js'}]
 	}
 	return [false]	
 }

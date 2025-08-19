@@ -1,13 +1,13 @@
-const LOG_FILE = '/logs/hackBot.txt'
-const ERROR_FILE = '/errors/hackBot.txt'
+const LOG_FILE = '/old/logs/hackBot.txt'
+const ERROR_FILE = '/old/errors/hackBot.txt'
 
-const GROW_PATH = '/util/minigrow.js'
+const GROW_PATH = '/old/util/minigrow.js'
 const GROW_COST = 1.75
 
-const WEAK_PATH = '/util/miniweak.js'
+const WEAK_PATH = '/old/util/miniweak.js'
 const WEAK_COST = 1.75
 
-const HACK_PATH = '/util/minihack.js'
+const HACK_PATH = '/old/util/minihack.js'
 const HACK_COST = 1.75
 
 /** @param {NS} ns */

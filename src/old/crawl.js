@@ -1,5 +1,5 @@
-const LOG_PATH = '/logs/crawl.txt'
-const ERRORS_PATH = '/errors/crawl.txt'
+const LOG_PATH = '/old/logs/crawl.txt'
+const ERRORS_PATH = '/old/errors/crawl.txt'
 
 /** @param {import(".").NS } ns */
 /** @param {NS} ns */

@@ -1,4 +1,4 @@
-const FALLBACK_ERROR_FILE = '/errors/fallback.txt'
+const FALLBACK_ERROR_FILE = '/old/errors/fallback.txt'
 
 export function pErrorGenerator(ns) {
 	return (e, to, options) => pError(ns, e, to, options)

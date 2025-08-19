@@ -1,5 +1,5 @@
 /** @param {NS} ns **/
-import { describeHost } from '/util/server.ns'
+import { describeHost } from '/old/util/server.ns'
 
 function formatNumber(num) {
     const endings = ['K', 'M', 'B', 'T']
@@ -17,7 +17,7 @@ function formatNumber(num) {
 export async function main(ns) {
     const logPath = ns.args.length > 0 ? ns.args[0] : 'brief.txt'
     try {
-        const servers = JSON.parse(await ns.read('/util/servers.txt'))
+        const servers = JSON.parse(await ns.read('/old/util/servers.txt'))
         ns.tprint(servers)
         for(const hostname of servers) {
             const server = describeHost(ns, hostname)

@@ -1,5 +1,5 @@
-const BASE_PATH = '/logs/money-'
-const SERVERS_PATH = '/lists/serverDescriptions.txt'
+const BASE_PATH = '/old/logs/money-'
+const SERVERS_PATH = '/old/lists/serverDescriptions.txt'
 
 /** @param {NS} ns **/
 export async function main(ns) {

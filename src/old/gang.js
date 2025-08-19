@@ -1,6 +1,6 @@
 //#region Global Defs
-const NAMES_LIST_PATH = '/lists/gangMemberNames.txt'
-const EQUIPMENT_PATH = '/lists/gangEquipment.txt'
+const NAMES_LIST_PATH = '/old/lists/gangMemberNames.txt'
+const EQUIPMENT_PATH = '/old/lists/gangEquipment.txt'
 
 const STR = 'str'
 const DEF = 'def'

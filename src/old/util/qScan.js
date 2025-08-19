@@ -1,11 +1,11 @@
-import { crack } from '/util/server.ns'
+import { crack } from '/old/util/server.ns'
 
-const SERVERS_PATH = '/lists/servers.txt'
-const UNOWNED_PATH = '/lists/servers_unowned.txt'
-const WORKERS_PATH = '/lists/servers_workers.txt'
-const OWNED_PATH = '/lists/servers_owned.txt'
-const SPREAD_WORKERS_LIST_PATH = '/lists/spread-workers.txt'
-const SPREAD_WEAKEN_WORKERS_LIST_PATH = '/lists/xweaken-workerList.txt'
+const SERVERS_PATH = '/old/lists/servers.txt'
+const UNOWNED_PATH = '/old/lists/servers_unowned.txt'
+const WORKERS_PATH = '/old/lists/servers_workers.txt'
+const OWNED_PATH = '/old/lists/servers_owned.txt'
+const SPREAD_WORKERS_LIST_PATH = '/old/lists/spread-workers.txt'
+const SPREAD_WEAKEN_WORKERS_LIST_PATH = '/old/lists/xweaken-workerList.txt'
 
 const HOME_IS_WORKER = ''
 const GENERIC_WORKER_REGEX = /^a(-\d+)?$/

@@ -1,20 +1,20 @@
-const TARGETS_PATH = '/lists/xweaken-targets.txt'
-const WORKER_LIST_PATH = '/lists/xweaken-workerList.txt'
+const TARGETS_PATH = '/old/lists/xweaken-targets.txt'
+const WORKER_LIST_PATH = '/old/lists/xweaken-workerList.txt'
 
-const LOG_FILE = '/logs/spread-weakener.txt'
-const ERROR_FILE = '/errors/spread-weakener.txt'
+const LOG_FILE = '/old/logs/spread-weakener.txt'
+const ERROR_FILE = '/old/errors/spread-weakener.txt'
 
 const RAM_SEGMENTS = 1
 
-const WEAKEN_PATH = '/util/weak.ns'
+const WEAKEN_PATH = '/old/util/weak.ns'
 const WEAKEN_COST = 1.75
 const WEAKEN_SEGMENTS = 1
 
-const GROW_PATH = '/util/grow.ns'
+const GROW_PATH = '/old/util/grow.ns'
 const GROW_COST = 1.75
 const GROW_SEGMENTS = 0
 
-const HACK_PATH = '/util/hackRoutine.js'
+const HACK_PATH = '/old/util/hackRoutine.js'
 const HACK_COST = 1.75
 const HACK_SEGMENTS = 0
 

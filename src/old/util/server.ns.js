@@ -1,5 +1,5 @@
-const SCRIPT_PATH = '/lib/manager.ns.js'
-const DESCRIPTION_PATH = '/lib/server.txt'
+const SCRIPT_PATH = '/old/lib/manager.ns.js'
+const DESCRIPTION_PATH = '/old/lib/server.txt'
 
 class ServerDescription {
 	/** @param {NS} ns **/

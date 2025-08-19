@@ -1,5 +1,5 @@
 /** @param {NS} ns **/
-import { describeHost } from '/util/server.ns'
+import { describeHost } from '/old/util/server.ns'
 
 function formatNumber(num) {
     const endings = ['K', 'M', 'B', 'T']
@@ -19,7 +19,7 @@ export async function main(ns) {
     try {
         let lines = []
         let readout = '\n'
-        const servers = JSON.parse(await ns.read('/util/servers.txt'))
+        const servers = JSON.parse(await ns.read('/old/util/servers.txt'))
         // ns.tprint(servers)
         for(const hostname of servers) {
             const server = describeHost(ns, hostname)

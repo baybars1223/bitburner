@@ -1,4 +1,4 @@
-const SCRIPT_PATH = '/util/moveDir.ns'
+const SCRIPT_PATH = '/old/util/moveDir.ns'
 
 /** @param {NS} ns **/
 export async function main(ns) {

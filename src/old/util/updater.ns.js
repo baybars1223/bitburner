@@ -1,8 +1,8 @@
-import {updateHost} from '/util/server.ns'
+import {updateHost} from '/old/util/server.ns'
 
-const SERVER_LIST = '/lists/servers_unowned.txt'
+const SERVER_LIST = '/old/lists/servers_unowned.txt'
 
-const LOG_FILE = '/logs/updater.txt'
+const LOG_FILE = '/old/logs/updater.txt'
 
 /** @param {NS} ns **/
 export async function main(ns) {
