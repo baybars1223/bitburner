@@ -13,6 +13,7 @@ hmmm...
                 well not necessarily. especially if weaken is the longest timed?
                 you'll just be queuing operations in an order different from their desired completion order?
 weaken:
+(In theory this will happen once at start of loop, then the grow and hack will spawn from there)
     calculate threads required to weaken security to 1
     calculate time that weaken operation with x threads will take
     enqueue weaken operation
@@ -81,4 +82,18 @@ The shape and workings of the task queue are still pretty amorphous in my head..
     I don't love the text file option. It has all the downsides of a database without any of the upsides.
     I think I'm leaning towards just managing the task queue in the script's state.
     
+Task Queue shape:
+    Each task is an object
+        {expectedStartTime: 1, expectedEndTime: 50, threads: 10, operation: "hack"}
+    Stored in FIFO array, so default manipulation is with shift + push
+        i need to write some code to get a better idea of how the weaken operations will need to be inserted
+    I'm wondering if an object with keys of expectedStartTime would be better?
+    Can't decide which model will require more sorting operations and other logistical manipulations
+
+Manager sends operation to client
+Client spawns process at estimated start time
+Client updates manager with actual completion time (should this happen every time or only when estimated != actual?)
+    Manager updates queue if necessary
+
+Manager should assign client a port from predefined & recorded range on subscribe
 */
