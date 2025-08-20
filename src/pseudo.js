@@ -85,6 +85,8 @@ The shape and workings of the task queue are still pretty amorphous in my head..
 Task Queue shape:
     Each task is an object
         {expectedStartTime: 1, expectedEndTime: 50, threads: 10, operation: "hack"}
+    * On second thought, maybe object with sequence as keys and array of task objects?
+        hm :/
     Stored in FIFO array, so default manipulation is with shift + push
         i need to write some code to get a better idea of how the weaken operations will need to be inserted
     I'm wondering if an object with keys of expectedStartTime would be better?
