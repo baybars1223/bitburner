@@ -1,4 +1,4 @@
-import { NS } from "@ns";
+import { NS, Server } from "@ns";
 
 /** @param {NS} ns */
 export async function main(ns) {
@@ -23,7 +23,7 @@ export async function main(ns) {
 // really need to figure out a cleaner way of doing this without going full typescript
 // or just go full typescript
 /** @param {NS} ns */
-function generateClients () {
+function generateClients (ns) {
     //loop through clients
         // check total ram
         // check available ram
@@ -61,36 +61,71 @@ function tempGenerateClients (ns, managerPort, clients) {
 /**
  * @param {NS} ns
  */
-function ramToThreads (availableRam, operation) {
+function ramToThreads (ns, availableRam, operation) {
     let availableRam = availableRam
     let scriptCost = ns.getScriptRam(operation + '.js')
+    
     let threads = Math.round(availableRam/scriptCost)
     let totalCost = threads * scriptCost
     return { threads, scriptCost, totalCost }
 }
 
-/** @param {NS} ns */
-function calculateWeaken (server) {
-    /*calculate threads*/
-    /*calculate length*/
+/** 
+ * @param {NS} ns
+ * @param {Server} server
+ * @param {Server} host
+ */
+function calculateWeaken (ns, server, host = 'home') {
+    // 3.1379999999999826 -> 3.127999999999982
+    // Given how insignificant the deviation from '.05/thread' is
+    // and that it's in the player's favor
+    // this isn't worth the complexity
+    // function subroutine(actualDecrease, desiredDecrease, predictedThreads, time) {
+    //     let threadDiff = Math.round((actualDecrease - desiredDecrease) / 0.05)
+    //     if(Math.abs(threadDiff) > 1) {
+    //         let newThreads = predictedThreads + threadDiff
+    //         let newDecrease = ns.weakenAnalyze(newThreads, host.cpuCores)
+    //         if(newDecrease === desiredDecrease) {
+    //             return { threads: newThreads, time }
+    //         } else {
+    //             return subroutine(newDecrease, securityDecrease, newThreads, time)
+    //         }
+    //     } else {
+    //         return {threads: predictedThreads, time}
+    //     }
+    // }
+
+    // TODO: clean up how&when Servers & Player are accessed
+    host = 'home' ? ns.getServer('home') : host;
+    let player = ns.getPlayer()
+    let time = ns.formulas.hacking.weakenTime(server, player)
+    const securityDecrease = server.hackDifficulty - 1
+    const predictedThreads = securityDecrease * 0.05
+    // let actualDecrease = ns.weakenAnalyze(predictedThreads, host.cpuCores)
+    // if (actualDecrease === securityDecrease) {
+    return { threads: predictedThreads, time}
+    // } else {
+    //     return subroutine(actualDecrease, securityDecrease, predictedThreads, time)
+    // }
 }
 
+
 /** @param {NS} ns */
-function calculateGrow (server) {
+function calculateGrow (ns, server) {
     /*calculate threads*/
     /*calculate length*/
     /*calculate sec increase*/
 }
 
 /** @param {NS} ns */
-function calculateHack (server) {
+function calculateHack (ns, server) {
     /*calculate threads*/
     /*calculate length*/
     /*calculate sec increase*/
 }
 
 /** @param {NS} ns */
-function enqueueOperations (server) {
+function enqueueOperations (ns, server) {
     plannedSequence += 1
     // calculateWeaken if expected security != 1
     // enqueue weaken
@@ -105,13 +140,13 @@ function enqueueOperations (server) {
 }
 
 /** @param {NS} ns */
-function updateOperationsQueue () {
+function updateOperationsQueue (ns) {
     // read in completionTime reports from port
     // update queue object
 }
 
 /** @param {NS} ns */
-function assignOperations () {
+function assignOperations (ns) {
     // gather threads for currentSequence + 1
     // if clients don't have enough threads - exit
     // weaken can be split without difficulty, others less so
