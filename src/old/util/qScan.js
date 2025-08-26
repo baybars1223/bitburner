@@ -75,9 +75,14 @@ export async function main(ns) {
                         ns.tprint(`Server: ${server.hostname}`);
                         ns.tprint(`MoneyAvailable: ${formatNumber(server.moneyAvailable)}`);
                         ns.tprint(`MaxMoney: ${formatNumber(server.moneyMax)}`);
+                        ns.tprint(`Growth: ${formatNumber(server.serverGrowth)}`);
                         ns.tprint(`Root: ${server.hasAdminRights}`)
                         ns.tprint(`SecurityLevel: ${server.hackDifficulty}`);
                         ns.tprint(`MinSecurityLevel: ${server.minDifficulty}`);
+                        let old = server.hackDifficulty
+                        server.hackDifficulty = server.minDifficulty
+                        ns.tprint(`HackChance(Theoretical): ${ns.formulas.hacking.hackChance(server,ns.getPlayer())}`);
+                        server.hackDifficulty = old
                         ns.tprint(`HackChance: ${ns.hackAnalyzeChance(server.hostname)}\n\n`);
                         // ns.tprint(`Cracked: ${cracked}`)
                         // ns.tprint(`ServerRam: ${server.maxRam}`);
