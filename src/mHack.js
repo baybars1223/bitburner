@@ -1,8 +1,11 @@
 /** @param {NS} ns */
 export async function main(ns) {
-	let [target, t = null] = ns.args
+	let [target, t = null, delay = 0] = ns.args
 	const server = ns.getServer(target)
 
+	if(delay !== 0) {
+		await ns.sleep(delay * 60 * 1000)
+	}
 	while(true) {
 		let home = ns.getServer()
 		let {maxRam, ramUsed} = home
