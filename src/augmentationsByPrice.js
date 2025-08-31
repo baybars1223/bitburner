@@ -46,7 +46,7 @@ export async function main(ns) {
 		let enoughRep = repFilter ? factions.reduce((acc, cur) => {return acc || ns.singularity.getFactionRep(cur) >= rep}, false) : true
 		if(price <= money && enoughRep) {
 			let n = (name.slice(0,15) + ':')
-			output+=`${n.padEnd(16,' ')} ${ns.formatNumber(price,2).padStart(7)} | ${ns.formatNumber(rep,1).padStart(7)} - [${factions.join(', ')}]\n`
+			output+=`${n.padEnd(16,' ')} ${ns.formatNumber(price,2).padStart(7)} | ${ns.formatNumber(rep,1).padStart(7)} - [${repFilter ? factions.join(', ') : factions.reduce((acc, cur) => { let val = ns.singularity.getFactionRep(cur)/ rep * 100; return acc + cur + ' (' + (val > 200 ? 200 : ns.formatNumber(val, 0)) + '%), '}, '').slice(0,-2)}]\n`
 		}
 	}
 	ns.tprint(output)
